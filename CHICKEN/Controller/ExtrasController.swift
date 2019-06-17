@@ -36,6 +36,7 @@ class ExtrasController: BaseListController, UICollectionViewDelegateFlowLayout {
          self.collectionView.allowsSelection = true
         
         
+        
         extras.append(Extras(id: UUID().uuidString, imageName: "bacon", calories: 343, price: 343, quantity: 4343))
         extras.append(Extras(id: UUID().uuidString, imageName: "bacon", calories: 343, price: 343, quantity: 4343))
         extras.append(Extras(id: UUID().uuidString, imageName: "bacon", calories: 343, price: 343, quantity: 4343))
